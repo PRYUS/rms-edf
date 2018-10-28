@@ -118,7 +118,7 @@ int main() {
                     data[j].flag = 0;
                     counter = 0;
                     if (data[j].rt) { //has remaining execution time
-                        if (!(--(data[j].rt))) { //reduce remaining execution time and check it
+                        if (!(--(data[j].rt))) { //reduce remaing execution time and check it
                             data[j].ready = 0;       //put status waiting
                             data[j].rt = data[j].ex; //reset remaining time
                         }
